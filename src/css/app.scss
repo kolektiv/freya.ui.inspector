@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+body {
+    font-family: 'Roboto', Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    //background-color: #bbb;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 0;
+}
+
+table {
+    //background-color: #eee;
+    border-collapse: collapse;
+}
+
+th {
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    padding: 10px 10px 10px 10px;
+}
+
+td {
+    //background-color: #ccc;
+    color: #999;
+    padding: 10px 0 10px 10px;
+    text-align: left;
+}
+
+header {
+    //background-color: #666;
+    padding: 10px 20px;
+}
+
+section {
+    //background-color: #999;
+    //border-right: 1px solid #ccc;
+    padding: 10px 20px;
+    float: left;
+
+    h1 {
+        color: #333;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}
+
+section#headers, section#detail {
+    width: 280px;
+
+    table {
+        width: 280px;
+    }
+}
+
+p {
+    //background-color: #ccc;
+    //margin-top: 20px;
+    margin: 0;
+    padding: 10px;
+    //padding: 20px 10px 10px 10px;
+}
+
+p.loading {
+    color: #999;
+    font-weight: 300;
+}
+
+tbody {
+    font-weight: 300;
+
+    td.property {
+        font-weight: 300;
+        color: #999;
+        width: 120px;
+    }
+
+    td.value {
+        font-weight: 400;
+        color: #666;
+    }
+    
+    td.timestamp {
+        width: 120px;
+    }
+    
+    tr.select {
+        &:hover {
+            background-color: #eee;
+            cursor: pointer;
+
+            td {
+                color: #333;
+            }
+        }
+    }
+
+    tr.selected {
+        font-weight: 700;
+
+        td {
+            color: #333;
+        }
+
+        td.timestamp {
+            color: #666;
+            font-weight: 400;
+        }
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    //background-color: #ccc;
+    //clear: left;
+    color: #999;
+    font-weight: 300;
+    padding: 10px 20px;
+    width: 500px;
+
+    strong {
+        color: #666;
+        font-weight: 400;
+    }
+
+    a {
+        color: #666;
+        font-weight: 400;
+        text-decoration: none;
+
+        &:hover {
+            color: #333;
+        }
+    }
+}
+
+nav {
+    a {
+        color: #ccc;
+        font-weight: 400;
+        text-decoration: none;
+
+        &:hover {
+            color: #333;
+        }
+    }
+}
+
+header {
+    ul {
+        position: absolute;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        top: 30px;
+        right: 50px;
+
+        li {
+            //background-color: #ccc;
+            padding: 10px;
+            float: left;
+        }
+    }
+}
+
+section#headers {
+    clear: left;
+}

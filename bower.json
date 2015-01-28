@@ -1,0 +1,30 @@
+{
+  "name": "freya.ui.inspector",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kolektiv/freya.tools.inspector",
+  "authors": [
+    "kolektiv <andrew@xyncro.com>"
+  ],
+  "description": "Freya Inspector UI",
+  "license": "Apache 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "immutable": "~3.6.2",
+    "marty": "~0.8.4",
+    "moment": "~2.9.0",
+    "react": "~0.12.2",
+    "requirejs": "~2.1.15"
+  },
+  "overrides": {
+    "superagent": {
+      "main": "superagent.js"
+    }
+  }
+}
