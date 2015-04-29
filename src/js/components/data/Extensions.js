@@ -1,8 +1,10 @@
 define([
   'lib/react',
+  'components/data/extensions/machine',
   'components/data/extensions/request'
-], function (React, Request) {
+], function (React, Machine, Request) {
   var extensions = {
+    machine: Machine,
     request: Request
   };
   
